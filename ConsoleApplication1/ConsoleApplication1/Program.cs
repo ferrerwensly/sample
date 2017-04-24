@@ -7,11 +7,22 @@ namespace ConsoleApplication1
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("HELLO");
-            Console.WriteLine(".......");
-            Console.ReadKey();
-        }
+    //    student mystud = new student;
+
+      //  static void Main(string[] args)
+       // {
+          //  int a = 12;
+           // Console.WriteLine("HELLO {0}", a);
+          //  Console.WriteLine(".......");
+           // Console.ReadKey();
+            student stud = new student(15);
+            public class student {
+                public int age { get; set; }
+            List<int> mystud = new List<int>();
+            public int age { get; set; }
+            Age = age;
+            }
+            
+        //}
     }
 }
